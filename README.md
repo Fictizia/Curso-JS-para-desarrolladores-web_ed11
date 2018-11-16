@@ -27,39 +27,18 @@ Como metodología de trabajo durante el curso, los alumnos desarrollarán como p
 
 Sobre el Curso
 =================
-* Horario: Martes y Jueves de 19h a 22h
-* Fechas: 24/05/2018 - 17/07/2017
-* Observaciones: 
-    * 07/06/2018 Open Expo
+* Horario: Sábados de 10:00h a 15:00h
+* Fechas: 17/11/2018 - 02/02/2019
 
-Teoría y Recursos
-=================
-Teoría | Recursos | Contenido
------------- | ------------- | -------------
-[Clase 1](teoria/dia1.md) | [Clase 1](recursos/dia1.md) | Intro al Curso y Git/Github
-[Clase 2](teoria/dia2.md) | [Clase 2](recursos/dia2.md) | Pseudocodigo y bases de algoritmia
-[Clase 3](teoria/dia3.md) | [Clase 3](recursos/dia3.md) | Chrome DevTools
-[Clase 4](teoria/dia4.md) | [Clase 4](recursos/dia4.md) | JSDocs, Comparadores, Tipos de datos, Modo Estricto, etc...
-[Clase 5](teoria/dia5.md) | [Clase 5](recursos/dia5.md) | Condicionales: If...else, Switch y Operador ternario
-[Clase 6](teoria/dia6.md) | [Clase 6](recursos/dia6.md) | Bucles: For, While, Do...while, Break & Cotinue
-[Clase 7](teoria/dia7.md) | [Clase 7](recursos/dia7.md) | JS con Números y Fechas
-[Clase 8](teoria/dia8.md) | Clase 8 | Spoiler: Hagamos un buscador de peliculas!
-[Clase 9](teoria/dia9.md) | [Clase 9](recursos/dia9.md) | JS con Cadenas, Arrays, Objetos y Funciones
-[Clase 10](teoria/dia10.md) | [Clase 10](recursos/dia10.md) | BOM, Manipulación del DOM, etc...
-[Clase 11](teoria/dia11.md) | [Clase 11](recursos/dia11.md) | Eventos, Programación dirigida a eventos
-[Clase 12](teoria/dia12.md) | [Clase 12](recursos/dia12.md) | Funciones avanzadas y asincronía
-[Clase 13](teoria/dia13.md) | [Clase 13](recursos/dia13.md) | AJAX con APIs...
-[Clase 14](teoria/dia14.md) | [Clase 14](recursos/dia14.md) | Trabajo en proyecto personal
-Clase 15 | Clase 15 | Beyond JS
+Clases
+======
+
+[Clase 1](teoria/dia1.md) 
 
 Temario
 =================
 
 **JavaScript en la actualidad**
-
-**Carga eficiente de scripts**
-
-**Lógica y abstracción aplicada a la programación**
 
 **Pseudocódigo**
 
