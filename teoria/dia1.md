@@ -31,10 +31,14 @@
 
 **Bio:**
 Papá de <img width=60 src="../imagenes/ginger.png"> <img width=60 src="../imagenes/ginger.png">
+
 #OpenSource, #Python, #JavaScript, #Node , #Crafter.
+
 Co-fundador de [@os_weekends](http://osweekends.com/).
 Aprendiendo día a día en @alea_soluciones
+
 Profe en [@fictiziaescuela](http://www.fictizia.com/profesores/) 
+
 A veces escribo en Medium cuando la ocasión me lo permite.
 
 **Redes Sociales:**
