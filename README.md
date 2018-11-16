@@ -40,10 +40,19 @@ Temario
 
 **JavaScript en la actualidad**
 
+**Tipos de dato**
+* Datos numéricos
+* Cadenas de texto
+* Booleanos
+* Null
+* Undefined
+* Objetos
+
 **Pseudocódigo**
 
 **Variables**
-* Operadores aritméticos
+
+**Operadores aritméticos**
 
 **Funciones**
 * Funciones con parámetros
@@ -55,14 +64,6 @@ Temario
 * Condicionales múltiples (Switch)
 
 **Bucles**
-
-**Tipos de dato**
-* Datos numéricos
-* Cadenas de texto
-* Booleanos
-* Null
-* Undefined
-* Objetos
 
 **Objetos nativos del DOM**
 * Document
@@ -94,6 +95,5 @@ Temario
 
 **Herramientas**
 * [Github](https://github.com/)
-* [Cloud 9](https://c9.io/ulisesgascon)
-* [JSHint](http://www.jshint.com/)
+* [Vscode](https://code.visualstudio.com/download)
 * [Mastering MarkDown](https://guides.github.com/features/mastering-markdown/)
