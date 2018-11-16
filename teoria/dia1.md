@@ -27,10 +27,15 @@
 
 ### Sobre el profesor
 
-![proud_of_campus](../imagenes/yomismo.jpg)
+![mic](../imagenes/yomismo.jpg)
 
 **Bio:**
-"#OpenSource | #Python #JavaScript, #Node | Co-fundador de [@os_weekends](http://osweekends.com/) | Profe en [@fictiziaescuela](http://www.fictizia.com/profesores/) |  A veces escribo en Medium cuando la ocasión me lo permite "
+Papá de ![peligrojos](../imagenes/ginger.png) ![peligrojos](../imagenes/ginger.png)
+#OpenSource, #Python, #JavaScript, #Node , #Crafter.
+Co-fundador de [@os_weekends](http://osweekends.com/).
+Aprendiendo día a día en @alea_soluciones
+Profe en [@fictiziaescuela](http://www.fictizia.com/profesores/) 
+A veces escribo en Medium cuando la ocasión me lo permite.
 
 **Redes Sociales:**
 - [Twitter](https://twitter.com/josheriff)
