@@ -1,6 +1,6 @@
-![shieldsIO](https://img.shields.io/github/issues/Fictizia/Curso-JS-para-desarrolladores-web_ed10.svg)
-![shieldsIO](https://img.shields.io/github/forks/Fictizia/Curso-JS-para-desarrolladores-web_ed10.svg)
-![shieldsIO](https://img.shields.io/github/stars/Fictizia/Curso-JS-para-desarrolladores-web_ed10.svg)
+![shieldsIO](https://img.shields.io/github/issues/Fictizia/Curso-JS-para-desarrolladores-web_ed11.svg)
+![shieldsIO](https://img.shields.io/github/forks/Fictizia/Curso-JS-para-desarrolladores-web_ed11.svg)
+![shieldsIO](https://img.shields.io/github/stars/Fictizia/Curso-JS-para-desarrolladores-web_ed11.svg)
 
 ![WideImg](http://fictizia.com/img/github/Fictizia-plan-estudios-github.jpg)
 
