@@ -1,7 +1,7 @@
 const age = 5;
 const country ='Spain'
 
-if (country = "Spain"){
+if (country === "Spain"){
     const hasAge = 18
 
 }else{
