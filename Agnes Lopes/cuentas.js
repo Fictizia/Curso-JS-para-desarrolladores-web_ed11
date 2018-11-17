@@ -17,5 +17,14 @@ console.log(5 <= '5' && typeof 5 === typeof '5')
 
 
 
+const hasTheAge = 18
+
+if (age >= hasTheAge) {
+    console.log('Entre por favor')
+} else {
+  console.log('no entre')
+}
+
+
 
 
