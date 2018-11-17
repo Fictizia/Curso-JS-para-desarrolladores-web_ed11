@@ -10,7 +10,7 @@ if (country === "Spain"){
 
 
 
-if (age<= hasAge){
+if (age>= hasAge){
     console.log('Puede entrar en la disco');
 
 }else{
