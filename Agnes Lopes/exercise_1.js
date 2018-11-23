@@ -16,3 +16,11 @@
     console.log('Do not Pass')
   }
 }
+
+// {
+//   const cat = 'black'
+
+//   if (cat === 'black') {
+//     adoption = true
+
+// }
