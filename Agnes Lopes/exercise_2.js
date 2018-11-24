@@ -6,6 +6,4 @@
 
 {
   console.log('orange')
-
-
 }
