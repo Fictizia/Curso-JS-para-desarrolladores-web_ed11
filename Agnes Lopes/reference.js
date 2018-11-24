@@ -8,3 +8,22 @@ first [0] = 'bye'
 
 console.log(first)
 console.log(second)
+
+
+
+// and objects
+
+let jaime= {name: 'Jaime',
+            age: 'taitantos',
+            pupil: true,
+            goodPerson:true
+}
+let agnes = jaime
+
+console.log(jaime)
+console.log(agnes)
+
+agnes.name = 'Agnes'
+
+console.log(jaime)
+console.log(agnes)
