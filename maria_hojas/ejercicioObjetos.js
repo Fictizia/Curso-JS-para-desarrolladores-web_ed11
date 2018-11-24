@@ -10,3 +10,5 @@ let secondBoolean = firstBoolean // este valor se va a quedar aunuqe cambie el v
 firstBoolean = false; //es lo mismo que first = !first
 
 //console.log(secondNum);
+
+   
