@@ -24,6 +24,34 @@ const lista = {
     huevo: 12,
     berenjenas: 5
 }
-console.log(lista)
+//console.log(lista)
+//console.log(lista.berenjenas)
+//const lista = {
+
+//}
+//const food = Object.keys(lista)
+const listaDePropriedades = Object.keys(lista)
+
+const element= food[0] //'barrasPan'
+const loQueQuieroSaber = lista[element] // lista['barrasPan']
+
+//console.log(food)
+//console.log(element)
+
+console.log(`La key es ${element} y el valor es ${loQueQuieroSaber}`)
+//console.log(food)
 
 
+
+
+
+
+
+
+
+
+
+/* lista.food[0]
+lista.food[1]
+lista.food[2]
+*/
