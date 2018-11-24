@@ -20,3 +20,4 @@ console.log(listaEnArray)
 listaEnArray.shift() // eliminated the first item
 console.log(listaEnArray)
 
+
