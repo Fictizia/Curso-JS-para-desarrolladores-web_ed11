@@ -1,103 +1,87 @@
-# Clase: 17 Noviembre 2018
+# Clase: 23 Noviembre 2018
 
 ## Javascript
 
-### Tipos de datos
+### Objetos
 
-* Numeros
-    * Enteros: 0, 1, 2
-    * Naturales: 0,4
+En JavaScript usaremos objetos anémicos (sólo tienen propiedades -datos en crudo-). 
 
-* String
-    * "Hola soy un texto"
-    * "5"
+Sólo contendrán strings, números, booleanos, arrays y otros objetos dentro de ellos mismos.
 
-* Boolean
-    * True
-    * False
-    
-* Array
-    * var lista ["pepinos", "tomates", "huevos"]
-    * lista.lenght = 3
-
-* Objetos
-    * Este tipo es más complicado y lo detallaremos más adelante.
+No contienen funciones.
 
 
-#### Declaración de variables
+* Ejemplo de objeto
 
-Usaremos "let" en vez de "var" para declarar una variable. También podemos usar "const"
-
->let = 5
->const guapo = true (no podemos cambiar el valor de la variable)
-
-#### Arrays
-
-> let unArray = ['uno', 'dos', 3]
-
-unArray.length : Saber la longitud del array
-unArray[1] : Saber la posición del array
-
-#### Comparadores
-
-*  5 > 2 // true
-*  5 > 6 // false
-*  5 > 5 // false
-*  5 == 5 // true - tienen que ser iguales
-*  5 === '5' // false - tienen que ser iguales y del mismo tipo
-*  5 <= 5 // true
-*  5 <= '5' // false 
-*  && // and 
-*  || // or
-
-
-> console.log(5 <= '5' && typeof 5 === typeof '5') // FALSE (en el and tienen que ser ambos true)
-
-
-
-### Condicionales
-
-* Ejercicio Discoteca:
-
-> const edad = 5
-> const mayorEdad = 18
-> 
-> 
-> if (edad >= mayorEdad){
-> console.log('PUEDES ENTRAR')
-> }else{
->     console.log('NO PUEDES ENTRAR, ERES MENOR DE EDAD')
-> }
-
-
-* Ejercicio Estados Unidos y España:
-
-> // voy a cambiar solo la edad y el país
-> // la edad será un número positivo entre 0 y 150
-> // el país solo puede ser Spain o USA, y se escribirá así
-> 
-> const age = 5
-> const country = 'Spain'
-> 
-> let ageToEnter = 21
-> 
-> if(country === 'Spain'){
->     ageToEnter = 18
+> const teacher = { name: 'Jose',
+>                    age: 35,
+>                    good: true,
+>                    friends: ['Ulises', 'Carlos', 'Borja'],
 > }
 > 
-> if (age >= ageToEnter){
->     console.log('Puedes entrar')
-> }else{
->     console.log('You shall not pass')
+> console.log(teacher)
+
+* Uso de Strings, cadenas de texto
+
+> const name = 'Victoria'
+> const age = 35
+> const doing = 'Studying'
+> const goodAtMath = true
+> 
+> let anotherText = `Hello my name is ${name}
+> I am ${age} years old
+> and I'm ${doing}
+> `
+> 
+> console.log(anotherText)
+> 
+* Ejemplo de objeto
+
+> const ulises = { name: 'Ulises',
+>                 job: 'Developer',
+>                 goodPerson: true }
+> 
+> const carlos = { name: 'Carlos',
+>                 job: 'Developer',
+>                 goodPerson: true }
+> 
+> const borja = { name: 'Borja',
+>                job: 'Security guard',
+>                goodPerson: true }
+> 
+> const teacher = { name: 'Jose',
+>                    age: 35,
+>                    good: true,
+>                    friends: [ulises, carlos, borja],
 > }
+> 
+> const teacherFriends = teacher.friends // objet
+> const teacherSecondFriend = teacherFriends[1] // array
+> const teacherSecondFriendJob = teacherSecondFriend.job // objet
+> 
+> console.log(teacherSecondFriendJob)
+> 
+> // console.log(teacher.friends[1].job) Forma corta de solucionar el problema anterior. 
+> 
+> //const numberOfJosesFriends = teacherFriends.length
+
+> //console.log(`${teacher.name} tiene ${numberOfJosesFriends} amigos`)
 
 
-##### Comandos básicos consola
+* Acceder a una lista de propiedades
 
-ls: Dónde estoy
-cd carpeta: Entrar en un directorio o carpeta
-cd .. : Volver atrás
+Para acceder a una lista de propiedades: Object.keys(lista)
 
+Ejemplo:
 
-
+> const lista = {
+>     barrasPan: 2,
+>     huevos: 12, 
+>     berenjenas: 5
+> }
+> 
+> const food = Object.keys(lista)
+> // lista.food[0]
+> // lista.food[1]
+> // lista.food[2]
 
