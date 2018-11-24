@@ -20,3 +20,5 @@ console.log(`seconNum vale : ${SecondText}`)
 console.log(`firstNum vale : ${first}`)
 console.log(`seconNum vale : ${Second}`)
 
+
+
