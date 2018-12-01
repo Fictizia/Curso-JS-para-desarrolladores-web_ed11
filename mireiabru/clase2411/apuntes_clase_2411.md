@@ -171,6 +171,13 @@ Añadir un elemento a  la lista.
 >console.log(myArray)
 
 * sort
+
+>const order = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+>console.log(order.sort())
+
+>ZiMac4-4:clase2411 javascript$ node arrays
+>[ 1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 2, 20, 3, 4, 5, 6, 7, 8, 9 ]
+
 * splice
 * replace
 * slice
