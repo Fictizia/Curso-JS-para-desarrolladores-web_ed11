@@ -123,8 +123,8 @@ shoppingList.length   //Método dinámico
 * lentgh
 
 ### Métodos más utilizados del objeto Array
-* indexOf
-* includes
+* indexOf    // devuelve la primera posisión en la que está un elemento
+* includes  //devuelve la última posición de un elem
 * pop
 * push
 * slice
