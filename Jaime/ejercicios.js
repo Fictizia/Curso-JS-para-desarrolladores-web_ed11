@@ -2,7 +2,7 @@
 let nums = ['1','2','3','4','5', '6', '7', '8', '9', '10'];
 
 let numsPares = nums.filter(function(par){
-    return par % 2 == 0;
+    return par % 2 == 0
 });
 
 console.log(numsPares);

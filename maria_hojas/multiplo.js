@@ -1,3 +1,7 @@
+// multiplo de 3 --> mosquetero
+// multiplo de 5 --> fantastico
+// multiplo de 3 y de 5 --> asereje
+// multiplo de ninguno --> aburrido
 
 areYouBoring([58,455,15,7,69,45])
 
