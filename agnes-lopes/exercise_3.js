@@ -2,7 +2,7 @@
 // cards from 1 till 7 * 4 types
 // J, Q and K * 4 types -> value = 10
 
-const deck = [
+/* const deck = [
   1,1,1,1
   2,2,2,2
   3,3,3,3
@@ -44,6 +44,4 @@ function quienGana(manoJugador, manoBanca){
   }
   return 'Emapate'
 }
-manoJugador += darCarta(deck)
-
-if()
+manoJugador += darCarta(deck) */
