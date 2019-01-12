@@ -5,13 +5,18 @@ const data = {
     pass:'lalalaal'
 }
 
+const myComplexHeader = {
+    'key':'value',
+    'secondKey':'secondVAlue',
+    'third': 'third',
+    'Content-Type': 'application/json',
+    'token':'lasdjhflñkjñleqwufdsafjasñdlfjasdlj'
+}
+
 const options = {
     method: 'POST', // or 'PUT'
     body: JSON.stringify(data), // data can be `string` or {object}!
-    headers:{
-      'Content-Type': 'application/json',
-      'token':'lasdjhflñkjñleqwufdsafjasñdlfjasdlj'
-    }
+    headers: myComplexHeader
 }
 
 async function llamadaApi(){
