@@ -97,3 +97,7 @@ Temario
 * [Github](https://github.com/)
 * [Vscode](https://code.visualstudio.com/download)
 * [Mastering MarkDown](https://guides.github.com/features/mastering-markdown/)
+
+**Lista de apis**
+
+* [apis](http://www.enrique7mc.com/2016/05/lista-apis-publicas/)
