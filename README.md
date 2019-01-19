@@ -101,3 +101,9 @@ Temario
 **Lista de apis**
 
 * [apis](http://www.enrique7mc.com/2016/05/lista-apis-publicas/)
+
+**Ejemplo api de tiempo**
+
+`se usa jquery y desfasado, pero sirve para hacerse a la idea...`
+
+* [weather to refactor](https://codepen.io/Josetekh/pen/bpMZOB)
