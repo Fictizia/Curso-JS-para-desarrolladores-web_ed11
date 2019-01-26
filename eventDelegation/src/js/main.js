@@ -24,10 +24,3 @@ names.forEach((name, index) => {
 });
 
 
-
-function identify(myElement, elements){
-    
-
-}
-
-
