@@ -58,14 +58,20 @@ function repartoAJugador(dondePintar) {
 }
 
 function repartoABanca() {
-    let banca = document.getElementById('banca')
+    let bancas = document.getElementsByClassName('banca')
+    console.log(bancas)
     manoBanca += darCarta(baraja);
-    banca.innerText = manoBanca
+    
+    bancas.forEach(banca => {
+        banca.innerText = 5
+    });
+
+    bancas[0].innerText = manoBanca
     if (mayorDeVeintiuno(manoBanca)){
-        banca.innerText ='has perdido BANCA'
+        bancas[0].innerText ='has perdido BANCA'
     }
     if (esVeintiuno(manoBanca)){
-        banca.innerText ='has GANADO BANCA'
+        bancas[0].innerText ='has GANADO BANCA'
     }
     
 }

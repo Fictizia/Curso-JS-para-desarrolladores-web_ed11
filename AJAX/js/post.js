@@ -1,26 +1,22 @@
-const apiUrl = 'https://swapi.co/api/newuser'
+const apiUrl = 'https://swapi.co/api/1'
 
 const data = {
-    user: 'jose',
-    pass:'lalalaal'
+    name: 'jose',
+    age:'27'
 }
 
-const myComplexHeader = {
-    'key':'value',
-    'secondKey':'secondVAlue',
-    'third': 'third',
-    'Content-Type': 'application/json',
-    'token':'lasdjhflñkjñleqwufdsafjasñdlfjasdlj'
+const myHeader = {
+    'Cookie':'eioqwyjhksdhkljdfoy39rehkkljsdfhkl8oy3jkxjdj'
 }
 
-const options = {
-    method: 'POST', // or 'PUT'
+const extendedData = {
+    method: 'PATCH', // or 'PUT'
     body: JSON.stringify(data), // data can be `string` or {object}!
-    headers: myComplexHeader
+    headers: myHeader
 }
 
 async function llamadaApi(){
-    let planets = await fetch(apiUrl, options)
+    let planets = await fetch(apiUrl, extendedData)
     planets = await planets.json()
     console.log(planets.results) // 0 a 9 name y population
     representar(planets.results)
