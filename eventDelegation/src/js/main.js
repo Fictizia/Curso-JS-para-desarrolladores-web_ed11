@@ -20,9 +20,14 @@ all.addEventListener('click', function(){
 const names = ['María', 'Jaime', 'Tere', 'Victoria', 'Agnes']
 
 names.forEach((name, index) => {
-    all.innerHTML += `<li id=abc${index}> ${name} </li>`
+    all.innerHTML += `<li id=abc${index}> ${name} </li> <input type="checkbox" "checked"=true>`
 });
 
 
+
+function identify(myElement, elements){
+    
+
+}
 
 
